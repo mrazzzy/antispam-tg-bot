@@ -23,7 +23,7 @@ class Config():
 
 
     def get_admin_id(self):
-        '''Айди владельца бота'''
+        '''ID владельца бота'''
         return int(os.getenv('ADMIN_ID'))
 
 
